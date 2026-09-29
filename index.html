@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Profil Saya</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #2a4663;
+        }
+
+        h1 {
+            text-align: center;
+            color: white;
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        img {
+            border-radius: 5%;
+            margin-bottom: 20px;
+            align-items: center;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            border: 2px solid #333;
+        }
+
+        p {
+            font-size: 16px;
+            line-height: 1.5;
+        }
+
+        .full-width-header {
+            background-color: #1e293b;
+            width: 100%;
+            margin: 0;
+        }
+        
+        .info-header h1 {
+            color: #1e293b;
+            margin: 10px 0 10px 0;
+            font-size: 24px; 
+            word-break: break-word;            
+        }
+
+        .info-header p {
+            margin: 0;
+            color: #334155;
+            line-height: 1.6;
+            font-size: 15px;
+        }
+
+        main {
+            max-width: 800px;
+            margin: 30px auto;
+            padding: 20px;
+            background-color: #ffffff;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            width: 90%;
+        }
+
+        main p main li {
+            font-size: 16px;
+            line-height: 1.5;
+            color: #334155;
+        }
+
+        main h2 {
+            color: #1e293b;
+            margin-top: 30px;
+            padding-bottom: 10px;
+            border-bottom: 2px solid #1e293b;
+        }
+
+        ul {
+            list-style-type: square;
+            padding-left: 20px;
+        }
+
+        a {
+            color: #007BFF;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        header {
+            background-color: #1e293b;
+            color: #ffffff;
+            padding: 40px 300px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 40px;
+            max-width: 1000px;
+            margin: 0 auto;
+
+        }
+
+        header img {
+            width: 200px;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 12px;
+            border: 3px solid white;
+            flex-shrink: 0;
+        }
+
+        .info-header {
+            max-width: 500px;
+            text-align: left;
+        }
+
+        .info-header h1 {
+            color: white;
+            margin: 10px 0 10px 0;
+            font-size: 24px; 
+            word-break: break-word;            
+        }
+
+        .info-header p {
+            margin: 0;
+            color: white;
+            line-height: 1.6;
+            font-size: 15px;
+        }
+
+
+        .grid-container {
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+            margin-top: 20px;
+        }
+
+        .kotak-info {
+            flex: 1;
+            min-width: 200px;
+            padding: 20px;
+            background-color: white;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+        }
+
+        .kotak-info {
+            flex: 1;
+            min-width: 200px;
+            padding: 20px;
+            background-color: white;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+        }
+
+        .grup-tombol {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            margin-top: 10px;
+        }
+
+        .button-sosmed {
+            display: inline-block;
+            color: #ffffff;
+            padding: 10px 20px;
+            border-radius: 25px;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 14px;
+            transition: opacity 0.2s ease, transform 0.1s ease;
+        }
+
+        .button-sosmed:hover {
+            opacity: 0.8;
+            transform: scale(1.05);
+        }
+
+        .button-ig {
+            background: linear-gradient(45deg, #405de6, #833ab4, #c13584, #e1306c);
+        }
+
+        .button-gh {
+            background-color: #333;
+        }
+
+
+    </style>
+</head>
+<body>
+    <header>
+        <img src="fotoprofil.jpg" alt="Foto Profil" width="200">
+        <div class="info-header">
+            <h1>Ferrell Ephraim Nathanoel Siregar</h1>
+            <p>Halo! Nama saya Ferrell Ephraim Nathanoel Siregar. Saya seorang mahasiswa yang memiliki minat dalam dunia teknologi dan pemrograman. Saya senang belajar hal-hal baru dan selalu berusaha untuk mengembangkan diri.</p>
+        </div>
+    </header>
+    <main>
+        <div class="grid-container">
+            <div class="kotak-info">
+                <h2>Informasi Pribadi</h2>
+                <p>Nama: Ferrell Ephraim Nathanoel Siregar</p>
+                <p>Usia: 20 tahun</p>
+                <p>Pekerjaan: Mahasiswa</p>
+            </div>
+
+            <div class="kotak-info">
+                <h2>Hobi</h2>
+                <ul>
+                    <li>Coding</li>
+                    <li>Bermain Game</li>
+                    <li>Mendengarkan Musik</li>
+                </ul>
+            </div>
+
+            <div class="kotak-info">
+                <h2>Kontak</h2>
+                <p>Berikut Link Yang Anda Bisa Klik Untuk Melihat Karya Saya:</p>
+                <div class="grup-tombol">
+                    <a href="https://www.instagram.com/ferrellensir/" target="_blank" class="button-sosmed button-ig">Instagram</a><br>
+                    <a href="https://github.com/Ferrell-Siregar" target="_blank" class="button-sosmed button-gh">GitHub</a><br>
+                </div>
+            </div>
+    </main>
+
+</body>
+</html>
